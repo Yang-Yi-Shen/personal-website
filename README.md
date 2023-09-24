@@ -1,29 +1,13 @@
 # personal-website
 
-This template should help get you started developing with Vue 3 in Vite.
+This is the Github repository for my personal website, as is evident from the name. It will be expanded as time passes and as I accumulate more projects & experience.
 
-## Recommended IDE Setup
+## Color scheme
+- **Background:** #342E37 
+- **Text:** #FA824C
+- **Borders & Emphasis:** #FAFFFD
+- **Highlights & Contrast:** #9FD356
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+## Fonts
+- **Headings:** [EB Garamond](https://fonts.google.com/specimen/EB+Garamond?preview.text=uganda%20airlines%20provides%20terrible%20service&preview.text_type=custom)
+- **Body Text:** [Inclusive Sans](https://fonts.google.com/specimen/Inclusive+Sans?preview.text=uganda%20airlines%20provides&preview.size=16&preview.text_type=custom&stroke=Sans+Serif)
