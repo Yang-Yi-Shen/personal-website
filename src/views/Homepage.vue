@@ -8,5 +8,6 @@ import Contact from '../components/Contact.vue';
   <main>
     <Introduction />
     <Description />
+    <Contact />
   </main>
 </template>
