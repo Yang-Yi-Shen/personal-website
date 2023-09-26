@@ -2,33 +2,39 @@
 
 <template>
     <section id="description">
-        <div class="description-text">
-            <h1 class="heading">Hello there!</h1>
-            <p>My name is Yang Yi Shen, and I like to learn and create things. I'm 16 years old and hoomeschooled. I am currently specialized in frontend web development, but plan to progress onto full-stack development in the future.</p>
-            <p>When I'm not making websites, I like to practice Brazillian Jiu-Jitsu, play the piano, and read a lot of books. I also do side projects that extend beyond the frontend from time to time.</p>
-            <p>As of now I reside in the lovely port city of Kaohsiung, Taiwan, although I plan to go to ollege in America.</p>
-        </div>
         <img class="description-image" src="/src/assets/blank_black.jpg">
+        <div class="description-text">
+            <h1 class="heading description-title">Hello there! 👋</h1>
+            <p>My name is Yang Yi Shen. I'm 16 years old, hoomeschooled, and like to learn and create things. I currently specialize in frontend web development, although I plan to progress onto full-stack development in the future.</p>
+            <p>When I'm not making websites, I practice Brazillian Jiu-Jitsu, play the piano, and read a lot of books. I also do side projects that extend beyond the frontend from time to time.</p>
+            <p>I reside in the lovely port city of Kaohsiung, Taiwan, although I plan to study college in America in the future.</p>
+        </div>
     </section>
 </template>
 
 <style scoped>
 #description {
+    height: 100vh;
     display: flex;
-    align-content: start;
+    align-items: center;
     justify-content: center;
     gap: 50px;
-    padding: 100px 10%;
     background-color: #FAFFFD;
+    padding: 0px 15%;
 }
 
 .description-text {
     color: black;
 }
 
+.description-title {
+    font-size: 48px;
+    margin-top: 0px;
+}
+
 .description-image {
-    height: 350px;
-    width: 350px;
+    height: 250px;
+    width: 250px;
     object-fit: cover;
 }
 </style>
