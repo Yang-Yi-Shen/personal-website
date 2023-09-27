@@ -10,5 +10,6 @@
 footer {
     padding: 50px 0px;
     text-align: center;
+    border-top: 2px solid white;
 }
 </style>
