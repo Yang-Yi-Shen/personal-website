@@ -1,28 +1,34 @@
-<script setup></script>
+<script setup>
+function discord() {
+    navigator.clipboard.writeText('yangyishen')
+
+    alert("Discord ID copied! (yangyishen)")
+}
+</script>
 
 <template>
     <section id="contacts">
         <h1 class="heading contacts-title">Let's get in touch!</h1>
         <ul class="contacts-list">
             <li class="contacts-item">
-                <a class="contacts-link" href="github.com"><i class="fa fa-github contacts-icon"></i></a>
+                <a class="contacts-link" href="https://github.com/yang-yi-shen" target="_blank"><i class="fa fa-github contacts-icon"></i></a>
                 <p class="contacts-label">Github</p>
                 <p class="contacts-text">I'm very active on Github, and you can find my coolest projects there</p>
             </li>
             <li class="contacts-item">
-                <a class="contacts-link" href="github.com"><i class="fa fa-github contacts-icon"></i></a>
-                <p class="contacts-label">Github</p>
-                <p class="contacts-text">I'm very active on Github, and you can find my coolest projects there</p>
+                <a class="contacts-link" @click="discord"><i class="fa-brands fa-discord contacts-icon"></i></a>
+                <p class="contacts-label">Discord</p>
+                <p class="contacts-text">Feel free to message me, although I might take a while to answer</p>
             </li>
             <li class="contacts-item">
-                <a class="contacts-link" href="github.com"><i class="fa fa-github contacts-icon"></i></a>
-                <p class="contacts-label">Github</p>
-                <p class="contacts-text">I'm very active on Github, and you can find my coolest projects there</p>
+                <a class="contacts-link" href="https://www.linkedin.com/in/yang-yi-shen-1b3226220/" target="_blank"><i class="fa-brands fa-linkedin contacts-icon"></i></a>
+                <p class="contacts-label">LinkedIn</p>
+                <p class="contacts-text">I'm not an avid LinkedIn user, but you can check out my certifications here</p>
             </li>
             <li class="contacts-item">
-                <a class="contacts-link" href="github.com"><i class="fa fa-github contacts-icon"></i></a>
-                <p class="contacts-label">Github</p>
-                <p class="contacts-text">I'm very active on Github, and you can find my coolest projects there</p>
+                <a class="contacts-link" href="mailto:mrshenyangyi@gmail.com"><i class="fa fa-envelope contacts-icon"></i></a>
+                <p class="contacts-label">Email</p>
+                <p class="contacts-text">Send me an email anytime, I'll be sure to see it within 3 business days</p>
             </li>
         </ul>
     </section>
@@ -30,10 +36,11 @@
 
 <style scoped>
 #contacts {
-    padding: 40px 0px 100px;
+    padding: 50px 20% 200px;
 }
 
 .contacts-title {
+    font-size: 48px;
     text-align: center;
     padding: 0px 0px 40px;
 }
@@ -43,17 +50,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 25px;
     padding-inline-start: 0px;
 }
 
 .contacts-item {
+    height: 230px;
+    width: 180px;
+    flex-shrink: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 200px;
     background: #FAFFFD;
-    padding: 20px;
+    padding: 35px 20px 0px;
 }
 
 .contacts-link {
@@ -63,7 +72,7 @@
 }
 
 .contacts-icon {
-    font-size: 72px;
+    font-size: 48px;
 }
 
 .contacts-label {
