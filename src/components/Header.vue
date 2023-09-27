@@ -2,7 +2,7 @@
 function discord() {
     navigator.clipboard.writeText('yangyishen')
 
-    alert("Discord ID copied!")
+    alert("Discord ID copied! (yangyishen)")
 }
 </script>
 
@@ -15,7 +15,7 @@ function discord() {
             <li class="header-contacts-item"><a class="header-contacts-link" @click="discord()"><i
                         class="header-contacts-icon fa-brands fa-discord"></i></a></li>
             <li class="header-contacts-item"><a class="header-contacts-link" target="_blank"
-                    href="https://dev.to/yangyishen"><i class="header-contacts-icon fa-brands fa-dev"></i></a></li>
+                    href="https://www.linkedin.com/in/yang-yi-shen-1b3226220/"><i class="header-contacts-icon fa-brands fa-linkedin"></i></a></li>
             <li class="header-contacts-item"><a class="header-contacts-link" href="mailto:mrshenyangyi@gmail.com"><i
                         class="header-contacts-icon fa fa-envelope"></i></a></li>
         </ul>
