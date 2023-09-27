@@ -63,6 +63,11 @@ function discord() {
     align-items: center;
     background: #FAFFFD;
     padding: 35px 20px 0px;
+    transition: 0.1s all ease-in-out;
+}
+
+.contacts-item:hover {
+    transform: scale(1.05);
 }
 
 .contacts-link {
