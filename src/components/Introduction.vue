@@ -4,7 +4,7 @@
     <section id="introduction">
         <div class="intro-text">
             <h1 class="heading intro-title">Yang Yi Shen</h1>
-            <p class="intro-subtitle">A homeschooled frontend web developer from Taiwan</p>
+            <p class="intro-subtitle">A Taiwanese frontend web developer</p>
         </div>
         <img class="intro-image" src="/src/assets/saigon.jpg">
     </section>
