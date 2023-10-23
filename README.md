@@ -6,7 +6,7 @@ This is the Github repository for my personal website, as is evident from the na
 - **Background:** #342E37 
 - **Text:** #FA824C
 - **Borders & Emphasis:** #FAFFFD
-- **Highlights & Contrast:** #9FD356
+- **Highlights & Contrast:** #CAD8DE
 
 ## Fonts
 - **Headings:** [EB Garamond](https://fonts.google.com/specimen/EB+Garamond?preview.text=uganda%20airlines%20provides%20terrible%20service&preview.text_type=custom)
