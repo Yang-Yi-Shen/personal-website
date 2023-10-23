@@ -2,7 +2,7 @@
 
 <template>
     <section id="description">
-        <img class="description-image" src="/src/assets/selfie.jpeg">
+        <img class="description-image" src="/selfie.jpeg">
         <div class="description-text">
             <h1 class="heading description-title">Hello there! 👋</h1>
             <p>My name is Yang Yi Shen. I'm 16 years old, homeschooled, and like to learn and create things. While I currently specialize in frontend web development, I plan to progress onto full-stack development in the future.</p>

@@ -6,7 +6,7 @@
             <h1 class="heading intro-title">Yang Yi Shen</h1>
             <p class="intro-subtitle">A Taiwanese frontend web developer</p>
         </div>
-        <img class="intro-image" src="/src/assets/saigon.jpg">
+        <img class="intro-image" src="/saigon.jpg">
     </section>
 </template>
 
