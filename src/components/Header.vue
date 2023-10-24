@@ -29,7 +29,6 @@ header {
     align-items: center;
     padding: 0px 10%;
     border-bottom: 2px solid #FAFFFD;
-    position: sticky;
 }
 
 .logo {
@@ -55,5 +54,15 @@ header {
 
 .header-contacts-icon:hover {
     color: #e0e0e0;
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 0px 7%;
+    }
+
+    .header-contacts {
+        gap: 20px;
+    }
 }
 </style>
