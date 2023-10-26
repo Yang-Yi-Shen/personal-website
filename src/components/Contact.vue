@@ -88,4 +88,41 @@ function discord() {
 .contacts-text {
     color: black;
 }
+
+@media (max-width: 768px) {
+    #contacts {
+        padding: 40px 0px;
+    }
+
+    .contacts-title {
+        margin: 0px;
+        padding-bottom: 20px;
+        font-size: 32px;
+    }
+
+    .contacts-list {
+        flex-direction: column;
+        padding: 0px 50px;
+    }
+
+    .contacts-item {
+        width: auto;
+        height: 120px;
+        padding: 0px;
+        padding-right: 20px;
+        align-items: center;
+        justify-content: baseline;
+        flex-direction: row;
+    }
+
+    .contacts-icon {
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contacts-label {
+        display: none;
+    }
+}
 </style>
