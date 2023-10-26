@@ -99,4 +99,23 @@
 .project-link:hover {
     color: #c6673c;
 }
+
+@media (max-width: 768px) {
+    #projects {
+        padding: 50px;
+    }
+
+    .projects-title {
+        font-size: 32px;
+    }
+
+    .projects-gallery {
+        flex-direction: column;
+    }
+
+    .project {
+        display: flex;
+        flex-direction: column;
+    }
+}
 </style>
